@@ -1,0 +1,41 @@
+body {
+    background-color: #9f7d88;
+}
+.container {
+    margin-top: 50px;
+    background-color: #08181c;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-label {
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #e4e4e4;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+#result img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+#result h3 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.text-custom-primary {
+    color: #ffffff !important; /* Customize this color as you like */
+}
+.text-custom-secondary {
+    color: #ffffff !important; /* Customize this color as you like */
+}
+.text-custom-info {
+    color: #ffffff !important; /* Customize this color as you like */
+}
+.text-custom-success {
+    color: #ffffff !important; /* Customize this color as you like */
+}
