@@ -5,7 +5,7 @@ const path = require('path');
 const fs = require('fs');
 
 const app = express();
-const port = 3001; // เปลี่ยนพอร์ทเป็น 3001
+const port = process.env.PORT || 3000; // ใช้พอร์ทจาก environment variable สำหรับ Heroku
 
 app.use(bodyParser.json());
 app.use(cors());
